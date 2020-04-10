@@ -71,3 +71,64 @@ header
     background-color: #ffffff;
     padding-left: 5px;
 }
+
+/* section_1 */
+.section_1
+{
+    height: 412px;
+    width: 99.8%;
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: column; */
+}
+.fresh_resources
+{
+    width: 474px;
+    height: 412px;
+    border: 1px solid black;
+}
+
+.fresh_resources img
+{
+    width: 474px;
+    height: 412px;
+    /* border: 1px solid black; */
+}
+.unusual_wifi
+{
+    width: 340px;
+    height: 412px;
+    border: 1px solid black;
+}
+.unusual_wifi img
+{
+    width: 340px;
+    height: 412px;
+    /* border: 1px solid black; */
+}
+.section_1Cards
+{
+    width: 542px;
+    border: 1px solid black;
+    /* display: flex; */
+}
+.card_1
+{
+    width: 541px;
+    height: 203px;
+    border: 1px solid black;    
+    display: flex;
+    /* flex-direction: column; */
+}
+.card
+{
+    width: 272px;
+    height: 205px;
+    border: 1px solid black;
+}
+.card img
+{
+    width: 272px;
+    height: 205px;
+    /* border: 1px solid black; */
+}
