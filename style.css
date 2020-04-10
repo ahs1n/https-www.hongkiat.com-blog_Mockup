@@ -50,13 +50,24 @@ header
     align-items : center;
     border: black 1px solid;
 }
-.header_right input
+.header_right_input
 {
     width:189px;
     height:31px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
 }
-.header_right img
+.header_right_input img
 {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
+}
+.header_right_input input
+{
+    width:173px;
+    height:29px;
+    border: none;
+    background-color: #ffffff;
+    padding-left: 5px;
 }
