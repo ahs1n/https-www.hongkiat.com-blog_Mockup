@@ -193,3 +193,20 @@ header
     font-weight: 500;
     color: #808080;
 }
+.card_layout button
+{
+    height: 29px;
+    width: 96px;
+    border: none;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: grey;
+}
+.card_layout button:hover
+{
+    background-color: #2C87E2;
+    color: white;
+}
