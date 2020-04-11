@@ -145,4 +145,15 @@ header
     height: 2240px;
     /* width: 99.8%; */
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_layout
+{
+    width: 337px;
+    height: 420.594px;
+    border: 1px solid black;
+    padding: 25px;
+    margin-bottom:20ps ;
 }
