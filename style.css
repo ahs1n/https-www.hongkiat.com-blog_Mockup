@@ -84,7 +84,7 @@ header
 }
 .fresh_resources
 {
-    width: 474px;
+    width: 472px;
     height: 412px;
     border: 1px solid black;
     background-image:
@@ -95,7 +95,7 @@ header
 
 .fresh_resources img
 {
-    width: 474px;
+    width: 47px;
     height: 412px;
     
     /* border: 1px solid black; */
@@ -157,4 +157,39 @@ header
     border: 1px solid black;
     padding: 25px;
     margin-bottom:20px;
+}
+.card_layout img
+{
+    height: 219px;
+    width: 340px;
+}
+#anker_1
+{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Slab',Helvetica,Arial,sans-serif;
+}
+#anker_1 a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+.card_layout p
+{
+    color: grey;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto Slab',Helvetica,Arial,sans-serif;
+}
+.anker_2
+{
+    text-decoration: none;
+    font-size:13px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #808080;
 }
