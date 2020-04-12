@@ -224,11 +224,14 @@ header
     background-color: #2C87E2;
     color: white;
 }
+
+/* Page Number */
 .page_number
 {
     border: black 1px solid;
     display: flex;
     justify-content: center;
+    padding-bottom: 70px;
     /* flex-direction:column; */
 }
 .page_number a
@@ -249,4 +252,12 @@ header
 {
     background-color: #26519E;
     color: white;
+}
+
+/* Footer */
+footer
+{
+    height: 225px;
+    /* width: 99.8%; */
+    background-color: #262626;
 }
