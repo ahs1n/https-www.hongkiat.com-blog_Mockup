@@ -307,7 +307,13 @@ header
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+.main_card_layout
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .card_layout
 {
     width: 337px;
