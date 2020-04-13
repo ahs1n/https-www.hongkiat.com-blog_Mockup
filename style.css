@@ -97,7 +97,7 @@ header
 .section_1
 {
     height: 412px;
-    width: 99.8%;
+    /* width: 99.8%; */
     /* border: 1px solid red; */
     display: flex;
     color: grey;
@@ -156,7 +156,7 @@ header
 }
 .top_css
 {
-    width: 470px;
+    width: 476px;
     height: 412px;
     border: 1px solid #444444;
     background-image:linear-gradient(to bottom, rgb(47, 47, 47),transparent),
@@ -169,7 +169,7 @@ header
 }
 .fresh_resources
 {
-    width: 330px;
+    width: 342px;
     height: 412px;
     border: 1px solid #444444;
     background-image: linear-gradient(to bottom,black,transparent),
@@ -234,7 +234,7 @@ header
 }
 .card_wifi
 {
-    width: 269px;
+    width: 272px;
     height: 205px;
     border: 1px solid #444444;
     background-image: linear-gradient(to bottom,black,transparent),
@@ -255,7 +255,7 @@ header
 }
 .card_motivational
 {
-    width: 269px;
+    width: 272px;
     height: 205px;
     border: 1px solid #444444;
     background-image: linear-gradient(to bottom,black,transparent),
@@ -268,7 +268,7 @@ header
 }
 .card_icon
 {
-    width: 269px;
+    width: 272px;
     height: 205px;
     border: 1px solid #444444;
     background-image: linear-gradient(to bottom,black,transparent),
@@ -282,7 +282,7 @@ header
 }
 .card_artwork
 {
-    width: 269px;
+    width: 272px;
     height: 205px;
     border: 1px solid #444444;
     background-image: linear-gradient(to bottom,black,transparent),
