@@ -100,8 +100,45 @@ header
     width: 99.8%;
     border: 1px solid red;
     display: flex;
+    color: grey;
 
     /* flex-direction: column; */
+}
+.section_1-text
+{
+    display: flex;
+    flex-direction: column;
+    border: solid green 1px;
+    height: 160px;
+}
+.fresh_resources h3 a
+{
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto Slab',Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.fresh_resources h3
+{
+    margin-block-end: 0.5em;
+
+}
+#fresh_resources_h:hover
+{
+    text-decoration: underline;
+    color: #2C78AC;
+}
+#fresh_resources_p
+{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 400px;
+    font-family: 'PT Sarif';
+    border: red solid 1px;
+    margin-block-start: 0em;
 }
 .fresh_resources
 {
@@ -111,6 +148,9 @@ header
     background-image:linear-gradient(to bottom, rgba(37, 37, 37),transparent),
     url(fresh-resources-for-web-designers-and-developers-april-2020.jpg);
     background-size: 470px 412px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .fresh_resources img
