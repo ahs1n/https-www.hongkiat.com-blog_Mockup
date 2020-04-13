@@ -167,13 +167,12 @@ header
     justify-content: center;
     align-items: flex-end;
 }
-
 .fresh_resources
 {
-    width: 340px;
+    width: 330px;
     height: 412px;
     border: 1px solid #444444;
-    background-image: linear-gradient(to bottom,rgb(47, 47, 47),transparent),
+    background-image: linear-gradient(to bottom,black,transparent),
     url(fresh-resources-for-web-designers-and-developers-april-2020.jpg);
     background-size: 650px 412px;
     background-position: center;
@@ -181,6 +180,7 @@ header
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-color: black;
 }
 .fresh_rescources-text h3 a
 {
@@ -237,7 +237,8 @@ header
     width: 269px;
     height: 205px;
     border: 1px solid #444444;
-    background-image: url(funny-wifi-names.jpg);
+    background-image: linear-gradient(to bottom,black,transparent),
+    url(funny-wifi-names.jpg);
     background-size: 300px 212px;
     background-position: center;
     display: flex;
@@ -257,7 +258,8 @@ header
     width: 269px;
     height: 205px;
     border: 1px solid #444444;
-    background-image: url(motivational-quotes.jpg);
+    background-image: linear-gradient(to bottom,black,transparent),
+    url(motivational-quotes.jpg);
     background-size: 310px 212px;
     background-position: center;
     display: flex;
@@ -269,10 +271,11 @@ header
     width: 269px;
     height: 205px;
     border: 1px solid #444444;
-    /* background-image: url(free-icon-sets-to-bookmark.jpg); */
+    background-image: linear-gradient(to bottom,black,transparent),
+    url(free-icon-sets-to-bookmark.jpg);
     background-size: 320px 212px;
     background-position: center;
-    background: #161616 url(free-icon-sets-to-bookmark.jpg);
+    /* background: #161616 url(free-icon-sets-to-bookmark.jpg); */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -282,7 +285,8 @@ header
     width: 269px;
     height: 205px;
     border: 1px solid #444444;
-    background-image: url(j-desenhos-3d-artwork.jpg);
+    background-image: linear-gradient(to bottom,black,transparent),
+    url(j-desenhos-3d-artwork.jpg);
     background-size: 300px 212px;
     background-position: center;
     display: flex;
