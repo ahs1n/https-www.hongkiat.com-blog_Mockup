@@ -20,12 +20,26 @@ header
 }
 .header_left
 {
-    width: 650px;
+    width: 680px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border: black solid 1px;
     /* margin-left: 40px; */
+}
+#logo_header
+{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+    fill: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: red solid 1px; */
+    width: 180px;
 }
 .header_left a
 {
