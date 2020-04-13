@@ -159,9 +159,10 @@ header
     width: 470px;
     height: 412px;
     border: 1px solid red;
-    background-image:linear-gradient(to bottom, rgba(37, 37, 37),transparent),
+    background-image:linear-gradient(to bottom, rgb(47, 47, 47),transparent),
     url(top-css-editors-reviewed.jpg);
-    background-size: 490px 412px;
+    background-size: 600px 412px;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -172,7 +173,10 @@ header
     width: 340px;
     height: 412px;
     border: 1px solid red;
-    background-image: url(fresh-resources-for-web-designers-and-developers-april-2020.jpg);
+    background-image: linear-gradient(to bottom,rgb(47, 47, 47),transparent),
+    url(fresh-resources-for-web-designers-and-developers-april-2020.jpg);
+    background-size: 650px 412px;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -198,6 +202,9 @@ header
     height: 205px;
     border: 1px solid red;
     background-image: url(funny-wifi-names.jpg);
+    background-size: 300px 212px;
+    background-position: center;
+    /* background-repeat: no-repeat; */
 }
 .card_motivational
 {
@@ -205,7 +212,8 @@ header
     height: 205px;
     border: 1px solid red;
     background-image: url(motivational-quotes.jpg);
-
+    background-size: 310px 212px;
+    background-position: center;
 }
 .card_icon
 {
@@ -213,7 +221,8 @@ header
     height: 205px;
     border: 1px solid red;
     background-image: url(free-icon-sets-to-bookmark.jpg);
-
+    background-size: 320px 212px;
+    background-position: center;
 }
 .card_artwork
 {
@@ -221,6 +230,8 @@ header
     height: 205px;
     border: 1px solid red;
     background-image: url(j-desenhos-3d-artwork.jpg);
+    background-size: 300px 212px;
+    background-position: center;
 }
 
 .card img
