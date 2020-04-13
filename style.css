@@ -125,12 +125,12 @@ header
     margin-block-end: 0.5em;
 
 }
-#fresh_resources_h:hover
+#section_anker-1:hover
 {
     text-decoration: underline;
     color: #2C78AC;
 }
-#fresh_resources_p
+.section_1 p
 {
     font-size: 18px;
     line-height: 26px;
@@ -140,7 +140,21 @@ header
     border: red solid 1px;
     margin-block-start: 0em;
 }
-.fresh_resources
+.section_anker-2
+{
+    text-decoration: none;
+    font-size:12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #b3b3b3;
+    padding-bottom: 20px;
+}
+.section_1-anker:hover
+{
+    text-decoration: underline;
+    color: grey;
+}
+.top_css
 {
     width: 470px;
     height: 412px;
@@ -153,14 +167,7 @@ header
     align-items: flex-end;
 }
 
-.fresh_resources img
-{
-    width: 47px;
-    height: 412px;
-    
-    /* border: 1px solid black; */
-}
-.unusual_wifi
+.fresh_resources
 {
     width: 340px;
     height: 412px;
@@ -170,12 +177,7 @@ header
     flex-direction: column;
     justify-content: flex-end;
 }
-.unusual_wifi img
-{
-    width: 340px;
-    height: 412px;
-    /* border: 1px solid black; */
-}
+
 .section_1Cards
 {
     width: 556px;
